@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José José Comprar Álbumes</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <!--Estilos-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+</head>
+<body>
+
+    <!--Barra de navegción-->
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+
+        <!--Contenido del navbar-->
+        <div class="container-fluid">
+
+            <!--Logo del navbar-->
+            <a class="navbar-brand"  href="index.html">JOSÉ JOSÉ</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Los links del navbar-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Biografia</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="albumes.html">Discografia</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Fuentes</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://inba.gob.mx/prensa/13055/jose-jose-uno-de-los-mas-grandes-interpretes-de-mexico" class="dropdown-item" target="_blank">🌐 INBAL</a>
+                            </li>
+                            <li>
+                                <a href="https://cnnespanol.cnn.com/2019/09/30/las-cifras-mas-importantes-de-la-exitosa-carrera-de-jose-jose" class="dropdown-item" target="_blank">🌐 CNN Español</a>
+                            </li>
+                            <li>
+                                <a href="https://www.paho.org/es/campeones-salud/jose-jose" class="dropdown-item" target="_blank">🌐 PAHO</a>
+                            </li>
+                            <li>
+                                <a href="https://www.caras.com.mx/personalidades/jose-jose-biografia" class="dropdown-item" target="_blank">🌐 Caras</a>
+                            </li>
+                            <li>
+                                <a href="https://es.wikipedia.org/wiki/Jos%C3%A9_Jos%C3%A9" class="dropdown-item" target="_blank">🌐 Wikipedia</a>
+                            </li>
+                            <li>
+                                <a href="https://archive.org/details/jose-jose-esta-es-mi-vida-pdf" class="dropdown-item" target="_blank">🌐 AutoBiografia</a>
+                            </li>                            
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col">
+
+            <h1 class="titulos">Formulario</h1>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col">
+            <form class="formulario-1">
+
+                <fieldset class="border border-4 border-black p-3 mt-3 mb-3 rounded">
+                    <legend class="float-none m w-auto px-3 broadway fs-1">Registro</legend>
+                    <p class="centro fst-italic fs-5">Ingrese su datos para comprar un álbum</p>
+                    <input class="inputs-form noto" type="text" id="name" placeholder="Nombre y Apellidos" required>
+                    <br>
+                    <input class="inputs-form noto" type="email" id="email" placeholder="Email" required>
+                    <br>
+                    <input class="inputs-form noto" type="number" id="tel" placeholder="Tel +52 00 000 000">
+                </fieldset>
+
+                <fieldset class="border border-4 border-black p-3 mt-3 mb-3 rounded">
+                    <legend class="float-none w-auto px-3 broadway fs-1">Compra</legend>
+                    <label for="album">Selecciona un album</label>
+                    <br>
+                    <select class="inputs-form" name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                    <br>
+                    <label for="metodo">Selecciona un método de pago</label>
+                    <br>
+                    <input type="radio">
+                    <input type="radio">
+                </fieldset>
+
+                <button type="submit" onclick="">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <!--El footer-->
+    <footer class="bg-dark text-light py-3 w-100 mt-4">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-4" style="border-right-width: 1px; border-right-style: solid;">
+                    <h6 class="centro noto">Derivan</h6>
+                    <p  class="small justificado fs-6">Este sitio web ha sido creado por las manos del <i>Derivan.</i> con el propósito de rendir homenaje al amigo que me escucha y acompaña todos los dias: <i>José José</i>.</p>
+                </div>
+
+                <div class="col-4" style="border-right-width: 1px; border-right-style: solid;">
+                    <h6 class="centro noto">Contacto</h6>
+                    <div class="row">
+                        <div class="col">
+                            <ul class="list-unstyled small justificado fs-6">
+                                <li><strong>Email:</strong> derivans.vs@gmail.com</li>
+                                <li><strong>Tel:</strong> +52 00 1999 0909</li>
+                                <li><strong>Dirección:</strong> Nuevo León, México</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="list-unstyled small justificado fs-6">
+                                <li><a style="color: rgb(240, 248, 255);" href="https://patreon.com/Derivan?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink"><strong>Patreon:</strong> Derivan</a></li>
+                                <li><a style="color: rgb(240, 248, 255);" href="https://www.instagram.com/derivan.js/?__pwa=1"><strong>Instagram:</strong> @derivan.js</a></li>
+                                <li><a style="color: rgb(240, 248, 255);" href="https://github.com/Derivanss"><strong>GitHub:</strong> Derivanss</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <h6 class="centro noto">Aviso Legal</h6>
+                    <p class="small justificado fs-6">Este sitio web no recopila datos de del usuario ni relacionados, unicamente toma los datos ingresados opcionalmente por el mismo para fines de funcionalidad.</p>
+                </div>
+            </div>
+
+            <hr style="border: none; height: 2px; background-color: rgb(255, 255, 255);">
+
+            <div class="row">
+                <div class="col">
+                    <h6 class="centro noto">Disclaimer</h6>
+                    <p class="small centro fs-6">Los derechos de autor de fotografias e imagenes a quien les pertenezca. Este trabajo es realizado para un proyecto académico sin fines de lucro. Las fuentes se encuentran citadas y la creación del texto es parafraseada, el trabajo es original y no hay inspiración ni directa del diseño del mismo. </p>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>

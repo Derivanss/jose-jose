@@ -1,0 +1,412 @@
+/* Etiquetas */
+
+html{
+    scroll-padding-top: 70px;
+}
+
+body{
+    background-image: url(images/fotos/fondo.jpg);
+    background-color: unset;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    font-family: broadway;
+    font-size: 20px;
+    transition: all .4s ease;
+}
+nav:hover{
+    padding: 10px;
+    font-size: 22px;
+}
+
+footer{
+    font-family: serif;
+}
+
+/* Clases */
+
+.d-block{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+.titulos{
+    font-size: 45px;
+    font-family: broadway;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(2px);
+    border: 1px solid beige;
+    border-radius: 12px;
+    box-shadow: 1px 10px 10px;
+}
+
+.contenidos{
+    background-color: rgba(255, 255, 255, .6);
+    backdrop-filter: blur(2px);
+    padding: 14px;
+    margin: 0 12px;
+    border-radius: 15px;
+    box-shadow: 0 7px 5px;
+}
+
+.textos{
+    text-align: justify;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times;
+}
+
+.centro{
+    text-align: center;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.noto{
+    font-family: serif-noto;
+    font-size: 19px;
+}
+
+.broadway{
+    font-family: broadway;
+}
+
+.texto-suave{
+    opacity: .75;
+    transition: all .5s ease;
+}
+
+.col{
+    margin: 10px 0;
+}
+
+.col-6, .col-lg-4{
+    margin:  10px 0 25px 0;
+}
+
+/* Clases Cards */
+
+.card{
+    width: 250px;
+    box-shadow: 3px 9px 11px rgb(0, 0, 0);
+    background-color: rgb(240, 240, 240);
+    border: 1px transparent;
+}
+
+.card-img-top{
+    min-height: 200px;
+}
+
+.card-title{
+    margin: 0;
+    padding: 0;
+}
+
+.card-text{
+    margin: 10px 0 10px 0;
+}
+
+
+/* Cuidado */
+.c1{
+    transition: all .4s ease;
+}
+
+.c1:hover{
+    transform: scale(1.03);
+    background-color: rgb(255, 110, 20);
+    color: unset;
+}
+
+/* La nave */
+.c2{
+    transition: all .4s ease;
+}
+
+.c2:hover{
+    transform: scale(1.03);
+    background-color: rgb(252, 38, 38);
+    color: unset;
+}
+
+/* El triste */
+.c3{
+    transition: all .4s ease;
+}
+
+.c3:hover{
+    transform: scale(1.03);
+    background-color: rgb(255, 214, 79);
+    color: unset;
+}
+
+/* De Pueblo */
+.c4{
+    transition: all .4s ease;
+}
+
+.c4:hover{
+    transform: scale(1.03);
+    background-color: rgb(170, 206, 194);;
+    color: unset;
+}
+
+/* Vive */
+.c5{
+    transition: all .4s ease;
+}
+
+.c5:hover{
+    transform: scale(1.03);
+    background-color: rgb(255, 255, 255);
+    color: unset;
+}
+
+/* Reencuentro */
+.c6{
+    transition: all .4s ease;
+}
+
+.c6:hover{
+    transform: scale(1.03);
+    background-color: rgb(255, 255, 255);
+    color: unset;
+}
+
+/* Volcan */
+.c7{
+    transition: all .4s ease;
+}
+
+.c7:hover{
+    transform: scale(1.03);
+    background-color: rgb(245, 96, 51);
+    color: rgb(255, 255, 255);
+}
+
+/* Lo pasado */
+.c8{
+    transition: all .4s ease;
+}
+
+.c8:hover{
+    transform: scale(1.03);
+    background-color: rgb(224, 173, 4);
+    color: rgb(255, 255, 255);
+}
+
+/* Amor Amor */
+.c9{
+    transition: all .4s ease;
+}
+
+.c9:hover{
+    transform: scale(1.03);
+    background-color: rgb(239, 165, 6);
+    color: unset;
+}
+
+/* Romántico */
+.c10{
+    transition: all .4s ease;
+}
+
+.c10:hover{
+    transform: scale(1.03);
+    background-color: rgb(37, 42, 46);
+    color: rgb(255, 255, 255);
+}
+
+
+/* Gracias */
+.c11{
+    transition: all .4s ease;
+}
+
+.c11:hover{
+    transform: scale(1.03);
+    background-color: rgb(250, 220, 155);
+    color: unset;
+}
+
+/* Secretos */
+.c12{
+    transition: all .4s ease;
+}
+
+.c12:hover{
+    transform: scale(1.03);
+    background-color: rgb(249, 218, 147);
+    color: unset;
+}
+
+/* Reflexiones */
+.c13{
+    transition: all .4s ease;
+}
+
+.c13:hover{
+    transform: scale(1.03);
+    background-color: rgb(65, 120, 196);
+    color: rgb(255, 255, 255);
+}
+
+/* Promesas */
+.c14{
+    transition: all .4s ease;
+}
+
+.c14:hover{
+    transform: scale(1.03);
+    background-color: rgb(84, 152, 199);
+    color: unset;
+}
+
+/* Que es el amor */
+.c15{
+    transition: all .4s ease;
+}
+
+.c15:hover{
+    transform: scale(1.03);
+    background-color: rgb(117, 116, 116);
+    color: rgb(213, 213, 213);
+}
+
+/* En las buenas */
+.c16{
+    transition: all .4s ease;
+}
+
+.c16:hover{
+    transform: scale(1.03);
+    background-color: rgb(35, 50, 136);
+    color: rgb(255, 255, 255);
+}
+
+/* 40 y 20 */
+.c17{
+    transition: all .4s ease;
+}
+
+.c17:hover{
+    transform: scale(1.03);
+    background-color: rgb(63, 83, 163);
+    color: rgb(255, 255, 255);
+}
+
+/* Mujeriego */
+.c18{
+    transition: all .4s ease;
+}
+
+.c18:hover{
+    transform: scale(1.03);
+    background-color: rgb(255, 32, 32);
+    color: rgb(255, 255, 255);
+}
+
+/* Distancia */
+.c19{
+    transition: all .4s ease;
+}
+
+.c19:hover{
+    transform: scale(1.03);
+    background-color: rgb(52, 91, 176);
+    color: rgb(255, 255, 255);
+}
+
+/* Tenampa */
+.c20{
+    transition: all .4s ease;
+}
+
+.c20:hover{
+    transform: scale(1.03);
+    background-color: rgb(184, 32, 32);
+    color: rgb(255, 255, 255);
+}
+
+/* Mi Vida */
+.c21{
+    transition: all .4s ease;
+}
+
+.c21:hover{
+    transform: scale(1.03);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* Tan Cerca */
+.c22{
+    transition: all .4s ease;
+}
+
+.c22:hover{
+    transform: scale(1.03);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* El Príncipe */
+.c23{
+    transition: all .4s ease;
+}
+
+.c23:hover{
+    transform: scale(1.03);
+    background-color: rgb(185, 49, 49);
+    color: unset;
+}
+
+/* Si Me Dejas */
+.c24{
+    transition: all .4s ease;
+}
+
+.c24:hover{
+    transform: scale(1.03);
+    background-color: rgb(202, 172, 22);
+    color: unset;
+}
+
+.boton-1{
+    box-shadow: 2px 5px 6px rgb(0, 0, 0);
+    transition: all .5s ease;
+}
+
+.boton-1:hover{
+    transform: scale(.95);
+}
+.boton-2{
+    box-shadow: 1px 2px 3px rgb(0, 0, 0);
+    transition: all .5s ease;
+}
+
+.boton-2:hover{
+    transform: scale(.90);
+}
+
+fieldset{
+    background-color: rgba(73, 73, 73, 0.5);
+}
+
+.inputs-form{
+    background-color: rgba(255, 255, 255, .5);
+    margin: 7px 0;
+    border: none;
+    border-top: 4px solid black;
+    border-radius: 4px;
+    width: 100%;
+    height: 35px;
+}

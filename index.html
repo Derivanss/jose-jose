@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José José</title>
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <!--Estilos-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+</head>
+<body>
+
+    <!--Barra de navegción-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+
+        <!--Contenido del navbar-->
+        <div class="container-fluid">
+
+            <!--Logo del navbar-->
+            <a class="navbar-brand"  href="index.html">JOSÉ JOSÉ</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Los links del navbar-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bio">Biografía</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hitos">Hitos</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="albumes.html">Discografía</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Fuentes</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://inba.gob.mx/prensa/13055/jose-jose-uno-de-los-mas-grandes-interpretes-de-mexico" class="dropdown-item" target="_blank">🌐 INBAL</a>
+                            </li>
+                            <li>
+                                <a href="https://cnnespanol.cnn.com/2019/09/30/las-cifras-mas-importantes-de-la-exitosa-carrera-de-jose-jose" class="dropdown-item" target="_blank">🌐 CNN Español</a>
+                            </li>
+                            <li>
+                                <a href="https://www.paho.org/es/campeones-salud/jose-jose" class="dropdown-item" target="_blank">🌐 PAHO</a>
+                            </li>
+                            <li>
+                                <a href="https://www.caras.com.mx/personalidades/jose-jose-biografia" class="dropdown-item" target="_blank">🌐 Caras</a>
+                            </li>
+                            <li>
+                                <a href="https://es.wikipedia.org/wiki/Jos%C3%A9_Jos%C3%A9" class="dropdown-item" target="_blank">🌐 Wikipedia</a>
+                            </li>
+                            <li>
+                                <a href="https://archive.org/details/jose-jose-esta-es-mi-vida-pdf" class="dropdown-item" target="_blank">🌐 AutoBiografia</a>
+                            </li>                            
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!--Carrousel-->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/carrousel/jose-jose-carrousel-1.jpeg" alt="José José de brazos" class="d-block">
+        </div>
+        <div class="carousel-item">
+            <img src="images/carrousel/jose-jose-carrousel-2.jpg" alt="José José posando" class="d-block">
+        </div>
+        <div class="carousel-item">
+            <img src="images/carrousel/jose-jose-carrousel-3.jpg" alt="José José expresion" class="d-block">
+        </div>
+        <div class="carousel-item">
+            <img src="images/carrousel/jose-jose-carrousel-4.jpg" alt="José José expresion" class="d-block">
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div> 
+
+    <!--Contenido de la página-->
+    <div class="container">
+
+        <!--Titulo-->
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h1 class="titulos" id="bio" >Biografia de José José</h1>
+
+            </div>
+        </div>
+
+        <!--Biografia-->
+        <div class="row">
+            <div class="col">
+            
+                <div class="contenidos">
+                    <img class="float-start me-4 rounded" src="images/fotos/jose-jose-foto-1.jpg" alt="José José Posando" title="José José joven" style="width: 250px; height: 250px;">
+                    <p class="textos"><strong>José Rómulo Sosa Ortiz</strong> <strong>nació el 17 de febrero en 1948</strong> en Ciudad de México, en una familia de músicos, su padre era cantante de ópera y su madre pianista, lo que lo llevó a desarrollar sus habilidades como cantante y compositor desde muy pequeño. Lamentablemente en 2017 fue diagnosticado con cáncer de páncreas y después de una dificil batalla, José José <strong>fallece el 28 de Septiembre en 2019</strong>, a la edad de 71 años.</p>
+                    <p class="textos">Desde la adolescencia mostró interés por la música, y a los 19 años formó un trío de bossa nova, Los Peg, donde tocaba el bajo y cantaba. Publicó su primer album en 1965 y en <strong>1968 adoptó el nombre artístico “José José” en homenaje a su padre fallecido.</strong> Ganó bastante popularidad a inicios de los años 70s al participar en el Festival Latinoamericano de la Canción, donde <strong>su interpretación de “El Triste” (1970) lo dio a conocer internacionalmente.</strong> Durante la década de los 70s participó activamente en películas y fue acumulando varios éxitos musicales, como <strong>De pueblo en pueblo, Gavilán o paloma, Hasta que vuelvas, Reencuentro</strong> y en especial <strong>El príncipe</strong>, en el cual se le atribuyó el título de <strong><i>"El Príncipe de la Canción".</i></strong></p>
+                    <img class="float-end ms-4 rounded" src="images/fotos/jose-jose-foto-2.jpg" alt="José José Posando" title="José José" style="width: 200px;">
+                    <p class="textos">En los años 80s este consolida una fama mundial indiscutible, ya que empezando esta década lanza álbumes exitosos como: <strong>Amor Amor, Romántico, Gracias, Mi vida</strong>, álbumes que logran enormes ventas. Para luego lanzar <strong>Secretos</strong> que fue nominado a los Grammys, luego con <strong>Reflexiones</strong> que alcanzó el No. 1 de los Billboard Latin, alcanzando estos dos últimos millones de ventas por todo el mundo, además que siguió participando en diversos filmes que aumentaban su popularidad. A finales de esta gran etapa de su vida, José José se sumió en la depresión, y abusó del alcohol y drogras, excesos que pronto le pagarían factura. </p>
+                    <p class="textos">Pronto en la década de los 90s fue cuando el deterioro en su voz y su salud comenzó a darle problemas, todo esto a causa del consumo desmedido del alcohol y drogas, su estilo de vida lleno de excesos y su vida de artista demandaba demasiado y sin embargo este siguió lanzando álbumes exitosos como <strong>40 y 20, En las buenas... y en las malas.</strong> Y cuando llegó a un punto muy bajo, José José entró en rehabilitación debido a sus circunstancias tan deplorables.</p>
+                    <img class="float-start me-4 rounded" style="width: 240px; height: 190px;" src="images/fotos/jose-jose-foto-3.jpg" alt="José José viejito">
+                    <p class="textos">Su vida continuó y durante las proximas décadas dejó de ser tan activo musicalmente pero su popularidad siguió incrementando, reconocido por su gran esfuerzo y talento a lo largo de su carrera musical, nominado a numerosos Grammys y recibió un premio Grammy a la Trayectoria, José José se destacó por su gran voz y aunque su salud lo obligó a retirarse fueron más de 50 años de trayectoria. Lamentablemente fallece en 2019 a causa de un tumor en el páncreas y otras complicaciones de salud.
+                    </p>
+                    <p class="textos">Sin embargo nos dejó un enorme patrimonio que será recordado por todo el mundo, José José queria ser recordado como un amigo, en aquellas buenas y malas ocasiones, y asi fue. Que en paz descanse la leyenda José José, conocido como <i>El príncipe de la canción.</i></p>
+                </div>
+            </div>
+        </div>
+        
+        <!--Titulo-->
+        <div class="row">
+            <div class="col">
+                
+                <hr>
+                <h2 class="titulos" id="hitos">Hitos importantes del Principe de la canción</h2>
+            </div>
+        </div>
+
+        <!--Hitos-->
+        <div class="row">
+            <div class="col">
+
+                <div class="contenidos">
+                    <h3 class="broadway">Logros:</h3>
+                    <ul class="textos">
+                        <img class="float-end ms-4 rounded" src="images/fotos/jose-jose-foto-4.jpg" alt="">
+                        <li>Más de 30 álbums lanzados</li>
+                        <li>Más de 50 años de carrera musical</li>
+                        <li>Nóminado a mejor artista latina 9 años consecutivos</li>
+                        <li>Álbum más vendido en Mexico: Promesas con 5 mill</li>
+                        <li>José José vendió más de 200 millones de discos mundialmente</li>
+                        <li>Obtuvo más de 100 discos de oro</li>
+                        <li>Obtuvo más de 100 discos de platino</li>
+                        <li>Recibe el Premio Grammy a la Trayectoria</li>
+                        <li>Honrado con el premio “Leyenda Viva” del Latin Songwriters Hall of Fame</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--Legado-->
+        <div class="row">
+            <div class="col">
+
+                <div class="contenidos">
+                    <h3 class="broadway">Legado:</h3>
+                    <p class="textos">José José no solo construyó una fama de talla mundial, nos dejó un enorme patrimonio, repleto de canciones que te abrazan con una calidez tal, que se siente como un amigo dandote consuelo, el príncipe logró algo como eso al transmitir una pasión palpable al interpretar las canciones. Además impulsó enormemente al reconocimiento de estos sectores musicales alrededor del mundo. Hoy en día, sus canciones se siguen oyendo, quedando marcado como uno de los intérpretes de las baladas románticas, puesto que significó mucho que este compartiera canciones tan reconfortantes del amor. Inspira a muchas personas e inspirará a muchisimos más, ya que demostró que apesar de las dificultades, uno puede levantarse.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Datos Curiosos-->
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="titulos">Datos Curiosos de José José</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+
+                <div class="contenidos">
+                    <ul class="textos">
+                        <li>Le encantaba el Bacardí</li>
+                        <li>Su color favorito es el azul</li>
+                        <li>Le gustaba comer comida callejera</li>
+                        <li>Le gustaba mucho vestir formal y para la ocasión</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Ir a discografia-->
+        <div class="row justify-content text-center">
+            <div class="col">
+                <a href="albumes.html">
+                    <button class="btn btn-primary broadway fs-2 boton-1">Ver Discografia -></button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--El footer-->
+    <footer class="bg-dark text-light py-3 w-100 mt-4">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-4" style="border-right-width: 1px; border-right-style: solid;">
+                    <h6 class="centro noto">Derivan</h6>
+                    <p  class="small justificado fs-6">Este sitio web ha sido creado por las manos del <i>Derivan.</i> con el propósito de rendir homenaje al amigo que me escucha y acompaña todos los dias: <i>José José</i>.</p>
+                </div>
+
+                <div class="col-4" style="border-right-width: 1px; border-right-style: solid;">
+                    <h6 class="centro noto">Contacto</h6>
+                    <div class="row">
+                        <div class="col">
+                            <ul class="list-unstyled small justificado fs-6">
+                                <li><strong>Email:</strong> derivans.vs@gmail.com</li>
+                                <li><strong>Tel:</strong> +52 00 1999 0909</li>
+                                <li><strong>Dirección:</strong> Nuevo León, México</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="list-unstyled small justificado fs-6">
+                                <li><a style="color: rgb(240, 248, 255);" href="https://patreon.com/Derivan?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink"><strong>Patreon:</strong> Derivan</a></li>
+                                <li><a style="color: rgb(240, 248, 255);" href="https://www.instagram.com/derivan.js/?__pwa=1"><strong>Instagram:</strong> @derivan.js</a></li>
+                                <li><a style="color: rgb(240, 248, 255);" href="https://github.com/Derivanss"><strong>GitHub:</strong> Derivanss</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <h6 class="centro noto">Aviso Legal</h6>
+                    <p class="small justificado fs-6">Este sitio web no recopila datos de del usuario ni relacionados, unicamente toma los datos ingresados opcionalmente por el mismo para fines de funcionalidad.</p>
+                </div>
+            </div>
+
+            <hr style="border: none; height: 2px; background-color: rgb(255, 255, 255);">
+
+            <div class="row">
+                <div class="col">
+                    <h6 class="centro noto">Disclaimer</h6>
+                    <p class="small centro fs-6">Los derechos de autor de fotografias e imagenes a quien les pertenezca. Este trabajo es realizado para un proyecto académico sin fines de lucro. Las fuentes se encuentran citadas y la creación del texto es parafraseada, el trabajo es original y no hay inspiración ni directa del diseño del mismo. </p>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>

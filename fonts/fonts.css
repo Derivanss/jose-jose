@@ -1,0 +1,9 @@
+@font-face {
+    font-family: broadway;
+    src: url(./broadway-bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: serif-noto;
+    src: url(./NotoSerifGrantha-Regular.ttf) format("truetype");
+}
