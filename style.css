@@ -425,15 +425,15 @@ fieldset{
 
 @media (max-width: 767px){
     .titulos{
-        font-size: 1.8rem;
+        font-size: 1.563rem;
     }
 e
     .textos{
-        font-size: 1.25rem;
+        font-size: 1.125rem;
     }
 
     .noto{
-        font-size: .95rem;
+        font-size: 0.875rem;
     }
 
 
@@ -453,16 +453,17 @@ e
         font-size: 1.125rem;
     }
 
-    .textos{
-        font-size: 1.1rem;
-    }
-
     .boton-1{
         font-size: 1.3rem !important;
     }
 
     .footer-text{
-        font-size: .9rem !important;
+        font-size: 0.875rem !important;
+    }
+
+    .imgs-texto{
+        width: 125px;
+        height: 125px;
     }
 
 }
