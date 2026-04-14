@@ -427,9 +427,9 @@ fieldset{
     .titulos{
         font-size: 1.563rem;
     }
-e
+
     .textos{
-        font-size: 1.125rem;
+        font-size: 1.1rem !important;
     }
 
     .noto{
@@ -458,12 +458,13 @@ e
     }
 
     .footer-text{
-        font-size: 0.875rem !important;
+        font-size: 0.65rem !important;
+        text-align: justify;
     }
 
     .imgs-texto{
-        width: 125px;
-        height: 125px;
+        width: 110px !important;
+        height: 110px !important;
     }
 
 }
