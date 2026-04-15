@@ -16,7 +16,7 @@
 <body>
 
     <!--Barra de navegción-->
-     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 
         <!--Contenido del navbar-->
         <div class="container-fluid">
@@ -83,41 +83,46 @@
     <div class="row">
 
         <div class="col">
-            <form class="formulario-1">
 
-                <fieldset class="border border-4 border-black p-3 mt-3 mb-3 rounded">
-                    <legend class="float-none m w-auto px-3 broadway fs-1">Registro</legend>
-                    <p class="centro fst-italic fs-5">Ingrese su datos para comprar un álbum</p>
-                    <input class="inputs-form noto" type="text" id="name" placeholder="Nombre y Apellidos" required>
-                    <br>
-                    <input class="inputs-form noto" type="email" id="email" placeholder="Email" required>
-                    <br>
-                    <input class="inputs-form noto" type="number" id="tel" placeholder="Tel +52 00 000 000">
-                </fieldset>
-
-                <fieldset class="border border-4 border-black p-3 mt-3 mb-3 rounded">
-                    <legend class="float-none w-auto px-3 broadway fs-1">Compra</legend>
-                    <label for="album">Selecciona un album</label>
-                    <br>
-                    <select class="inputs-form" name="" id="">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select>
-                    <br>
-                    <label for="metodo">Selecciona un método de pago</label>
-                    <br>
-                    <input type="radio">
-                    <input type="radio">
-                </fieldset>
-
-                <button type="submit" onclick="">Enviar</button>
-            </form>
+            <div class="contenedor-formulario">
+                <form class="formulario-1">
+    
+                    <fieldset class="border border-4 border-black p-3 mt-3 mb-3 rounded">
+                        <legend class="float-none m w-auto px-3 broadway fs-1">Registro</legend>
+                        <p class="centro fst-italic fs-5">Ingrese su datos para comprar un álbum</p>
+                        <input class="inputs-form noto" type="text" id="name" placeholder="Nombre y Apellidos" required>
+                        <br>
+                        <input class="inputs-form noto" type="email" id="email" placeholder="Email" required>
+                        <br>
+                        <input class="inputs-form noto" type="number" id="tel" placeholder="Tel +52 00 000 000">
+                    </fieldset>
+    
+                    <fieldset class="border border-4 border-black p-3 mt-3 mb-3 rounded">
+                        <legend class="float-none w-auto px-3 broadway fs-1">Compra</legend>
+                        <label for="album">Selecciona un album</label>
+                        <br>
+                        <select class="inputs-form" name="" id="">
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                        <br>
+                        <label for="metodo">Selecciona un método de pago</label>
+                        <br>
+                        <input type="radio">
+                        <input type="radio">
+                    </fieldset>
+                    <div class="text-center">
+                        <button class="btn btn-success boton-formulario" type="submit" onclick=""><span>¡Comprar!</span></button>
+                        <button class="btn btn-secondary boton-formulario" type="reset" onclick=""><span>Reset</span></button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>

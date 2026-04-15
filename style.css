@@ -1,11 +1,11 @@
 /* Etiquetas */
 
-html{
+html {
     font-size: 16px;
     scroll-padding-top: 70px;
 }
 
-body{
+body {
     background-image: url(images/fotos/fondo.jpg);
     background-color: unset;
     margin: 0;
@@ -13,34 +13,35 @@ body{
     overflow-x: hidden;
 }
 
-nav{
+nav {
     font-family: broadway;
     font-size: 1.25rem;
     transition: all .4s ease;
 }
-nav:hover{
+
+nav:hover {
     padding: 10px;
     font-size: 1.375rem;
 }
 
-footer{
+footer {
     font-family: serif;
 }
 
 /* Clases */
 
-.navbar-brand{
+.navbar-brand {
     font-size: 1.563rem;
 }
 
-.d-block{
+.d-block {
     width: 100%;
     height: 600px;
     object-fit: cover;
 }
 
 
-.titulos{
+.titulos {
     font-size: 2.813rem;
     font-family: broadway;
     text-align: center;
@@ -53,7 +54,7 @@ footer{
 }
 
 
-.contenidos{
+.contenidos {
     background-color: rgba(255, 255, 255, .6);
     backdrop-filter: blur(2px);
     padding: 14px;
@@ -62,170 +63,172 @@ footer{
     box-shadow: 0 7px 5px;
 }
 
-.textos{
+.textos {
     text-align: justify;
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times;
 }
 
-.centro{
+.centro {
     text-align: center;
 }
 
-.justificado{
+.justificado {
     text-align: justify;
 }
 
-.noto{
+.noto {
     font-family: serif-noto;
     font-size: 1.188rem;
 }
 
-.broadway{
+.broadway {
     font-family: broadway;
 }
 
-.texto-suave{
+.texto-suave {
     opacity: .75;
     transition: all .5s ease;
 }
 
-.col{
+.col {
     margin: 10px 0;
 }
 
-.col-6, .col-lg-4{
-    margin:  10px 0 25px 0;
+.col-6,
+.col-lg-4 {
+    margin: 10px 0 25px 0;
 }
 
 /* Clases Cards */
 
-.card{
+.card {
     width: 250px;
     box-shadow: 3px 9px 11px rgb(0, 0, 0);
     background-color: rgb(240, 240, 240);
     border: 1px transparent;
 }
 
-.card-img-top{
+.card-img-top {
     min-height: 200px;
 }
 
-.card-title{
+.card-title {
     margin: 0;
     padding: 0;
 }
 
-.card-text{
+.card-text {
     margin: 10px 0 10px 0;
 }
 
 
 /* Cuidado */
-.c1{
+.c1 {
     transition: all .4s ease;
 }
 
-.c1:hover{
+.c1:hover {
     transform: scale(1.03);
     background-color: rgb(255, 110, 20);
     color: unset;
 }
 
 /* La nave */
-.c2{
+.c2 {
     transition: all .4s ease;
 }
 
-.c2:hover{
+.c2:hover {
     transform: scale(1.03);
     background-color: rgb(252, 38, 38);
     color: unset;
 }
 
 /* El triste */
-.c3{
+.c3 {
     transition: all .4s ease;
 }
 
-.c3:hover{
+.c3:hover {
     transform: scale(1.03);
     background-color: rgb(255, 214, 79);
     color: unset;
 }
 
 /* De Pueblo */
-.c4{
+.c4 {
     transition: all .4s ease;
 }
 
-.c4:hover{
+.c4:hover {
     transform: scale(1.03);
-    background-color: rgb(170, 206, 194);;
+    background-color: rgb(170, 206, 194);
+    ;
     color: unset;
 }
 
 /* Vive */
-.c5{
+.c5 {
     transition: all .4s ease;
 }
 
-.c5:hover{
+.c5:hover {
     transform: scale(1.03);
     background-color: rgb(255, 255, 255);
     color: unset;
 }
 
 /* Reencuentro */
-.c6{
+.c6 {
     transition: all .4s ease;
 }
 
-.c6:hover{
+.c6:hover {
     transform: scale(1.03);
     background-color: rgb(255, 255, 255);
     color: unset;
 }
 
 /* Volcan */
-.c7{
+.c7 {
     transition: all .4s ease;
 }
 
-.c7:hover{
+.c7:hover {
     transform: scale(1.03);
     background-color: rgb(245, 96, 51);
     color: rgb(255, 255, 255);
 }
 
 /* Lo pasado */
-.c8{
+.c8 {
     transition: all .4s ease;
 }
 
-.c8:hover{
+.c8:hover {
     transform: scale(1.03);
     background-color: rgb(224, 173, 4);
     color: rgb(255, 255, 255);
 }
 
 /* Amor Amor */
-.c9{
+.c9 {
     transition: all .4s ease;
 }
 
-.c9:hover{
+.c9:hover {
     transform: scale(1.03);
     background-color: rgb(239, 165, 6);
     color: unset;
 }
 
 /* Romántico */
-.c10{
+.c10 {
     transition: all .4s ease;
 }
 
-.c10:hover{
+.c10:hover {
     transform: scale(1.03);
     background-color: rgb(37, 42, 46);
     color: rgb(255, 255, 255);
@@ -233,181 +236,203 @@ footer{
 
 
 /* Gracias */
-.c11{
+.c11 {
     transition: all .4s ease;
 }
 
-.c11:hover{
+.c11:hover {
     transform: scale(1.03);
     background-color: rgb(250, 220, 155);
     color: unset;
 }
 
 /* Secretos */
-.c12{
+.c12 {
     transition: all .4s ease;
 }
 
-.c12:hover{
+.c12:hover {
     transform: scale(1.03);
     background-color: rgb(249, 218, 147);
     color: unset;
 }
 
 /* Reflexiones */
-.c13{
+.c13 {
     transition: all .4s ease;
 }
 
-.c13:hover{
+.c13:hover {
     transform: scale(1.03);
     background-color: rgb(65, 120, 196);
     color: rgb(255, 255, 255);
 }
 
 /* Promesas */
-.c14{
+.c14 {
     transition: all .4s ease;
 }
 
-.c14:hover{
+.c14:hover {
     transform: scale(1.03);
     background-color: rgb(84, 152, 199);
     color: unset;
 }
 
 /* Que es el amor */
-.c15{
+.c15 {
     transition: all .4s ease;
 }
 
-.c15:hover{
+.c15:hover {
     transform: scale(1.03);
     background-color: rgb(117, 116, 116);
     color: rgb(213, 213, 213);
 }
 
 /* En las buenas */
-.c16{
+.c16 {
     transition: all .4s ease;
 }
 
-.c16:hover{
+.c16:hover {
     transform: scale(1.03);
     background-color: rgb(35, 50, 136);
     color: rgb(255, 255, 255);
 }
 
 /* 40 y 20 */
-.c17{
+.c17 {
     transition: all .4s ease;
 }
 
-.c17:hover{
+.c17:hover {
     transform: scale(1.03);
     background-color: rgb(63, 83, 163);
     color: rgb(255, 255, 255);
 }
 
 /* Mujeriego */
-.c18{
+.c18 {
     transition: all .4s ease;
 }
 
-.c18:hover{
+.c18:hover {
     transform: scale(1.03);
     background-color: rgb(255, 32, 32);
     color: rgb(255, 255, 255);
 }
 
 /* Distancia */
-.c19{
+.c19 {
     transition: all .4s ease;
 }
 
-.c19:hover{
+.c19:hover {
     transform: scale(1.03);
     background-color: rgb(52, 91, 176);
     color: rgb(255, 255, 255);
 }
 
 /* Tenampa */
-.c20{
+.c20 {
     transition: all .4s ease;
 }
 
-.c20:hover{
+.c20:hover {
     transform: scale(1.03);
     background-color: rgb(184, 32, 32);
     color: rgb(255, 255, 255);
 }
 
 /* Mi Vida */
-.c21{
+.c21 {
     transition: all .4s ease;
 }
 
-.c21:hover{
+.c21:hover {
     transform: scale(1.03);
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 
 /* Tan Cerca */
-.c22{
+.c22 {
     transition: all .4s ease;
 }
 
-.c22:hover{
+.c22:hover {
     transform: scale(1.03);
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 
 /* El Príncipe */
-.c23{
+.c23 {
     transition: all .4s ease;
 }
 
-.c23:hover{
+.c23:hover {
     transform: scale(1.03);
     background-color: rgb(185, 49, 49);
     color: unset;
 }
 
 /* Si Me Dejas */
-.c24{
+.c24 {
     transition: all .4s ease;
 }
 
-.c24:hover{
+.c24:hover {
     transform: scale(1.03);
     background-color: rgb(202, 172, 22);
     color: unset;
 }
 
-.boton-1{
+.boton-1 {
     box-shadow: 2px 5px 6px rgb(0, 0, 0);
     transition: all .5s ease;
 }
 
-.boton-1:hover{
+.boton-1:hover {
     transform: scale(.95);
 }
-.boton-2{
+
+.boton-2 {
     box-shadow: 1px 2px 3px rgb(0, 0, 0);
     transition: all .5s ease;
 }
 
-.boton-2:hover{
+.boton-2:hover {
     transform: scale(.90);
 }
 
-fieldset{
-    background-color: rgba(73, 73, 73, 0.5);
+/* Formulario */
+.contenedor-formulario{
+    max-width: 55vw !important;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 8px 9px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 0;
+    
 }
 
-.inputs-form{
+.formulario-1{
+    width: unset;
+}
+
+fieldset {
+    background-color: rgba(201, 201, 201, 0.7);
+}
+
+legend{
+    text-align: left;
+}
+
+.inputs-form {
     background-color: rgba(255, 255, 255, .5);
     margin: 7px 0;
     border: none;
@@ -417,55 +442,92 @@ fieldset{
     height: 35px;
 }
 
+.boton-formulario{
+    width: 100%;
+    margin:  4px 0;
+    letter-spacing: 2px;
+    font-size: 1.125rem !important;
+}
+
+
+
 
 
 
 
 /* font-size en celular */
 
-@media (max-width: 767px){
-    .titulos{
+@media (max-width: 767px) {
+    .titulos {
         font-size: 1.563rem;
     }
 
-    .textos{
+    .textos {
         font-size: 1.1rem !important;
     }
 
-    .noto{
+    .noto {
         font-size: 0.875rem;
     }
 
-
-    .d-block{
-        height: 250px;
+    .col-6,.col-lg-4 {
+        margin: 5px 0;
     }
 
-    .navbar-brand{
-        font-size: 1.2rem;
-    }
-
-    nav{
+    .card-title{
         font-size: 1rem;
     }
 
-    nav:hover{
+    .card-text{
+        font-size: 0.65rem !important;
+    }
+
+    .list-group{
+        font-size: 0.7rem !important;
+    }
+
+    p.small{
+        font-size: .6rem !important;
+    }
+
+    .boton-2{
+        font-size: .7rem !important;
+    }
+
+    .d-block {
+        height: 250px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        font-size: 1rem;
+    }
+
+    nav:hover {
         font-size: 1.125rem;
     }
 
-    .boton-1{
+    .boton-1 {
         font-size: 1.3rem !important;
     }
 
-    .footer-text{
+    .footer-text {
         font-size: 0.65rem !important;
         text-align: justify;
     }
 
-    .imgs-texto{
+    .imgs-texto {
         width: 110px !important;
         height: 110px !important;
     }
 
-}
+    .contenedor-formulario{
+        max-width: 75vw !important;
+    }
 
+
+
+}
