@@ -105,25 +105,24 @@ footer {
     color: rgb(96, 96, 96);
     transition: all .2s ease;
     font-size: 1.35rem;
-    font-family: noto;
+    font-family: broadway;
     font-weight: bold;
 }
 
 .detalles-titulo:hover{
-    transform: scale(.99);
+    transform: scale(.98);
 }
 
 /* Clases Cards */
 
 .card {
-    width: 250px;
     box-shadow: 3px 9px 11px rgb(0, 0, 0);
     background-color: rgb(240, 240, 240);
     border: 1px transparent;
 }
 
 .card-img-top {
-    min-height: 200px;
+    min-height: 175px;
 }
 
 .card-title {
@@ -423,8 +422,9 @@ footer {
 /* Formulario */
 .contenedor-formulario{
     max-width: 55vw !important;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid black;
+    background-color: rgb(255, 255, 255, .25);
+    backdrop-filter: blur(2px);
+    border: 2px solid rgb(255, 255, 255,.25);
     border-radius: 10px;
     box-shadow: 3px 8px 9px;
     margin: auto;
@@ -446,7 +446,7 @@ legend{
 }
 
 .inputs-form {
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, 0.25);
     margin: 7px 0;
     border: none;
     border-top: 4px solid black;
@@ -460,8 +460,12 @@ legend{
     margin:  4px 0;
     letter-spacing: 2px;
     font-size: 1.125rem !important;
+    transition: all .2s ease;
 }
 
+.boton-formulario:hover{
+    transform: scale(.99);
+}
 
 
 

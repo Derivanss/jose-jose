@@ -99,27 +99,48 @@
     
                     <fieldset class="border border-4 border-black p-3 mt-3 mb-3 rounded">
                         <legend class="float-none w-auto px-3 broadway fs-1">Compra</legend>
-                        <label for="album">Selecciona un album</label>
-                        <br>
-                        <select class="inputs-form" name="" id="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                        <br>
-                        <label for="metodo">Selecciona un método de pago</label>
-                        <br>
-                        <input type="radio">
-                        <input type="radio">
+                        <div class="centro">
+                        <label for="album" class="centro fst-italic fs-5 mb-2">Selecciona un album</label>
+                            <br>
+                            <select class="inputs-form noto" name="album" id="album">
+                                <option value="cuidado">Cuidado</option>
+                                <option value="la_nave">La Nave Del Olvido</option>
+                                <option value="eltriste">El Triste</option>
+                                <option value="depueblo">De Pueblo En Pueblo</option>
+                                <option value="vive">Vive</option>
+                                <option value="reencuentro">Reencuentro</option>
+                                <option value="volcan">Volcán</option>
+                                <option value="lopasado">Lo Pasado Lo Pasado</option>
+                                <option value="tancerca">Tan Cercas...  Tan Lejos</option>
+                                <option value="elprincipe">El Príncipe</option>
+                                <option value="simedejas">Si Me Dejas Ahora</option>
+                                <option value="amor">Amor Amor</option>
+                                <option value="gracias">Gracias</option>
+                                <option value="romantico">Romántico</option>
+                                <option value="mivida">Mi Vida</option>
+                                <option value="secretos">Secretos</option>
+                                <option value="reflexiones">Reflexiones</option>
+                                <option value="promesas">Promesas</option>
+                                <option value="queeselamor">¿Qué Es El Amor?</option>
+                                <option value="enlasbuenas">En Las Buenas... Y En Las Malas</option>
+                                <option value="40y20">40 y 20</option>
+                                <option value="mujeriego">Mujeriego</option>
+                                <option value="distancia">Distancia</option>
+                               <option value="tenampa">Tenampa</option>
+                            </select>
+                            <br>
+                        
+                            <label for="metodo" class="centro fst-italic fs-5">Selecciona un método de pago</label>
+                            <br>
+                            <input type="radio" id="efectivo" name="metodo-pago" value="1" required>
+                            <label for="efectivo" class="me-5 noto">Efectivo</label>
+                            <input type="radio" id="tarjeta" name="metodo-pago" value="2" >
+                            <label for="tarjeta" class="noto">Tarjeta</label>
+                        </div>
                     </fieldset>
                     <div class="text-center">
                         <button class="btn btn-success boton-formulario" type="submit" onclick=""><span>¡Comprar!</span></button>
-                        <button class="btn btn-secondary boton-formulario" type="reset" onclick=""><span>Reset</span></button>
+                        <button class="btn btn-secondary boton-formulario" type="reset" onclick=""><span>Reiniciar</span></button>
                     </div>
                 </form>
             </div>
