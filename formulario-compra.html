@@ -85,65 +85,74 @@
         <div class="col">
 
             <div class="contenedor-formulario">
-                <form class="formulario-1">
+                
+                <form onsubmit="alertaCompra(event)">
     
-                    <fieldset class="border border-4 border-black p-3 mt-3 mb-3 rounded">
-                        <legend class="float-none m w-auto px-3 broadway fs-1">Registro</legend>
-                        <p class="centro fst-italic fs-5">Ingrese su datos para comprar un álbum</p>
-                        <input class="inputs-form noto" type="text" id="name" placeholder="Nombre y Apellidos" required>
+                    <fieldset>
+                        <legend>Registro</legend>
+                        <label for="" class="labels-form">Ingrese sus datos para comprar un álbum</label>
+                        <input class="inputs-form" type="text" id="name" placeholder="Nombre y Apellidos" required>
                         <br>
-                        <input class="inputs-form noto" type="email" id="email" placeholder="Email" required>
+                        <input class="inputs-form" type="email" id="email" placeholder="Email" required>
                         <br>
-                        <input class="inputs-form noto" type="number" id="tel" placeholder="Tel +52 00 000 000">
+                        <input class="inputs-form" type="number" id="tel" placeholder="Tel +52 00 000 000">
                     </fieldset>
     
-                    <fieldset class="border border-4 border-black p-3 mt-3 mb-3 rounded">
-                        <legend class="float-none w-auto px-3 broadway fs-1">Compra</legend>
-                        <div class="centro">
-                        <label for="album" class="centro fst-italic fs-5 mb-2">Selecciona un album</label>
-                            <br>
-                            <select class="inputs-form noto" name="album" id="album">
-                                <option value="cuidado">Cuidado</option>
-                                <option value="la_nave">La Nave Del Olvido</option>
-                                <option value="eltriste">El Triste</option>
-                                <option value="depueblo">De Pueblo En Pueblo</option>
-                                <option value="vive">Vive</option>
-                                <option value="reencuentro">Reencuentro</option>
-                                <option value="volcan">Volcán</option>
-                                <option value="lopasado">Lo Pasado Lo Pasado</option>
-                                <option value="tancerca">Tan Cercas...  Tan Lejos</option>
-                                <option value="elprincipe">El Príncipe</option>
-                                <option value="simedejas">Si Me Dejas Ahora</option>
-                                <option value="amor">Amor Amor</option>
-                                <option value="gracias">Gracias</option>
-                                <option value="romantico">Romántico</option>
-                                <option value="mivida">Mi Vida</option>
-                                <option value="secretos">Secretos</option>
-                                <option value="reflexiones">Reflexiones</option>
-                                <option value="promesas">Promesas</option>
-                                <option value="queeselamor">¿Qué Es El Amor?</option>
-                                <option value="enlasbuenas">En Las Buenas... Y En Las Malas</option>
-                                <option value="40y20">40 y 20</option>
-                                <option value="mujeriego">Mujeriego</option>
-                                <option value="distancia">Distancia</option>
-                               <option value="tenampa">Tenampa</option>
-                            </select>
-                            <br>
+                    <fieldset>
+                        <legend>Compra</legend>
+                        <label for="album" class="labels-form">Selecciona un álbum</label>
+                        <br>
+                        <select class="inputs-form noto" name="album" id="album">
+                            <option value="cuidado">Cuidado</option>
+                            <option value="la_nave_del_olvido">La Nave Del Olvido</option>
+                            <option value="el_triste">El Triste</option>
+                            <option value="de_pueblo_en_pueblo">De Pueblo En Pueblo</option>
+                            <option value="vive">Vive</option>
+                            <option value="reencuentro">Reencuentro</option>
+                            <option value="volcan">Volcán</option>
+                            <option value="lo_pasado_pasado">Lo Pasado Lo Pasado</option>
+                            <option value="tan_cerca">Tan Cercas...  Tan Lejos</option>
+                            <option value="el_principe">El Príncipe</option>
+                            <option value="si_me_dejas_ahora">Si Me Dejas Ahora</option>
+                            <option value="amor_amor">Amor Amor</option>
+                            <option value="gracias">Gracias</option>
+                            <option value="romantico">Romántico</option>
+                            <option value="mi_vida">Mi Vida</option>
+                            <option value="secretos">Secretos</option>
+                            <option value="reflexiones">Reflexiones</option>
+                            <option value="promesas">Promesas</option>
+                            <option value="que_es_el_amor">¿Qué Es El Amor?</option>
+                            <option value="en_las_buenas_en_las_malas">En Las Buenas... Y En Las Malas</option>
+                            <option value="40_y_20">40 y 20</option>
+                            <option value="mujeriego">Mujeriego</option>
+                            <option value="distancia">Distancia</option>
+                           <option value="tenampa">Tenampa</option>
+                        </select>
+                        <br>
                         
-                            <label for="metodo" class="centro fst-italic fs-5">Selecciona un método de pago</label>
-                            <br>
+                        <label for="metodo" class="labels-form">Selecciona un método de pago</label>
+                        <br>
+                        <div class="centro">
                             <input type="radio" id="efectivo" name="metodo-pago" value="1" required>
                             <label for="efectivo" class="me-5 noto">Efectivo</label>
                             <input type="radio" id="tarjeta" name="metodo-pago" value="2" >
                             <label for="tarjeta" class="noto">Tarjeta</label>
                         </div>
                     </fieldset>
+
                     <div class="text-center">
-                        <button class="btn btn-success boton-formulario" type="submit" onclick=""><span>¡Comprar!</span></button>
-                        <button class="btn btn-secondary boton-formulario" type="reset" onclick=""><span>Reiniciar</span></button>
+                        <button class="btn btn-success boton-formulario" type="submit"><span>¡Comprar!</span></button>
+                        <button class="btn btn-secondary boton-formulario" type="reset"><span>Reiniciar</span></button>
                     </div>
+
                 </form>
             </div>
+
+            <dialog id="ventana-modal" class="centro">
+                <h2><span id="texto-modal"></span></h2>
+                <button type="button" class="btn btn-secondary boton-formulario" onclick="cerrarVentana()">Cerrar Ventana</button>
+            </dialog>
+
         </div>
     </div>
 </div>
@@ -199,5 +208,7 @@
         </div>
 
     </footer>
+
+<script src="script.js"></script>
 </body>
 </html>

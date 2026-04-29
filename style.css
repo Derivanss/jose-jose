@@ -3,6 +3,7 @@
 html {
     font-size: 16px;
     scroll-padding-top: 70px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -26,6 +28,12 @@ nav:hover {
 
 footer {
     font-family: serif;
+}
+
+/* IDs */
+
+#demo{
+    box-shadow: 0 12px 13px;
 }
 
 /* Clases */
@@ -103,7 +111,7 @@ footer {
 
 .detalles-titulo{
     color: rgb(96, 96, 96);
-    transition: all .2s ease;
+    transition: all .3s ease;
     font-size: 1.35rem;
     font-family: broadway;
     font-weight: bold;
@@ -111,7 +119,9 @@ footer {
 
 .detalles-titulo:hover{
     transform: scale(.98);
+    color: rgb(44, 44, 44);
 }
+
 
 /* Clases Cards */
 
@@ -420,6 +430,7 @@ footer {
 }
 
 /* Formulario */
+
 .contenedor-formulario{
     max-width: 55vw !important;
     background-color: rgb(255, 255, 255, .25);
@@ -433,16 +444,30 @@ footer {
     
 }
 
-.formulario-1{
-    width: unset;
-}
-
 fieldset {
     background-color: rgba(201, 201, 201, 0.7);
+    border: 4px solid black;
+    border-radius: 7px;
+    padding: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 legend{
     text-align: left;
+    font-family: broadway;
+    float: none;
+    width: auto;
+    padding: 0 12px;
+    font-size: 1.8rem;
+}
+
+.labels-form{
+    font-size: 1.25rem;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    margin: 5px 0;
 }
 
 .inputs-form {
@@ -453,6 +478,8 @@ legend{
     border-radius: 4px;
     width: 100%;
     height: 35px;
+    font-family: noto;
+    font-size: 1.188rem !important;
 }
 
 .boton-formulario{
@@ -467,6 +494,18 @@ legend{
     transform: scale(.99);
 }
 
+/* Ventana Modal */
+#ventana-modal{
+    width: 80vw;
+    height: 50vh;
+    position: relative;
+    border: transparent;
+    border-radius: 10px;
+    background-color: rgba(255, 253, 253, 0.9);
+    box-shadow: 2px 9px 12px;
+    font-family: monospace;
+    font-family: 1.6rem;
+}
 
 
 
